@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Teachers' Day 2025 - Yantrikee Club</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;600;700;800;900&family=Exo+2:wght@300;400;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Animated Background -->
+    <div class="background">
+        <div class="cyber-grid"></div>
+        <div class="floating-elements">
+            <div class="element circuit-board"></div>
+            <div class="element microchip"></div>
+            <div class="element gear-system"></div>
+            <div class="element data-flow"></div>
+            <div class="element neural-network"></div>
+            <div class="element quantum-particles"></div>
+        </div>
+        <div class="energy-field"></div>
+        <div class="holographic-overlay"></div>
+    </div>
+
+    <!-- Main Container -->
+    <div class="container">
+        <!-- Header -->
+        <header class="header">
+            <div class="logo">
+                <div class="logo-icon">
+                    <!-- Club Logo will be added here -->
+                    <img src="yantrikee club.jpeg" alt="Yantrikee Club Logo" class="club-logo-img">
+                </div>
+                <div class="logo-text">
+                    <span class="club-name">Yantrikee</span>
+                    <span class="club-subtitle">Official Technical Club</span>
+                </div>
+            </div>
+            <div class="institute-badge">
+                <span class="institute-name">ICFAI Tech</span>
+                <span class="date">September 5, 2025</span>
+            </div>
+        </header>
+
+        <!-- Main Content -->
+        <main class="main-content">
+            <!-- Hero Section -->
+            <section class="hero">
+                <div class="hero-content">
+                    <div class="title-container">
+                        <h1 class="main-title">
+                            <span class="title-word title-word-1">Happy</span>
+                            <span class="title-word title-word-2">Teachers'</span>
+                            <span class="title-word title-word-3">Day</span>
+                        </h1>
+                        <div class="title-decoration">
+                            <div class="cyber-line"></div>
+                            <div class="pulse-dots">
+                                <span></span><span></span><span></span>
+                            </div>
+                        </div>
+                    </div>
+                    <p class="hero-subtitle">Unlocking the future through knowledge and innovation</p>
+                    <div class="tech-badge">
+                        <span class="badge-text">Engineering Excellence 2025-2026</span>
+                        <div class="badge-glow"></div>
+                    </div>
+                    
+                    <!-- Get Started Button -->
+                    <div class="hero-actions">
+                        <button id="getStartedBtn" class="get-started-btn">
+                            <span>🚀 Get Started</span>
+                            <i class="fas fa-rocket"></i>
+                        </button>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Interactive Greeting Card -->
+            <section class="greeting-section">
+                <div class="greeting-card">
+                    <div class="card-hologram"></div>
+                    <div class="card-content">
+                        <div class="card-header">
+                            <div class="card-icon">
+                                <i class="fas fa-graduation-cap"></i>
+                            </div>
+                            <h2 class="card-title">Digital Greeting</h2>
+                        </div>
+                        <div class="card-message">
+                            <p>Dear Esteemed Faculty of ICFAI Tech,</p>
+                            <p>On this special day, we celebrate your brilliance, dedication, and the incredible impact you have on shaping the minds of future engineers and innovators.</p>
+                            <p>Your wisdom lights the path to innovation, and your guidance transforms dreams into reality.</p>
+                        </div>
+                        <div class="card-signature">
+                            <span class="signature-line">With deepest gratitude,</span>
+                            <span class="club-signature">Yantrikee Technical Club</span>
+                            <span class="institute-signature">ICFAI Tech</span>
+                        </div>
+                    </div>
+                    <div class="card-particles"></div>
+                </div>
+            </section>
+
+            <!-- Multi-Branch Intelligence Challenge -->
+            <section class="puzzle-section">
+                <div class="puzzle-container">
+                    <div class="puzzle-header">
+                        <h2 class="puzzle-title">🧠 Multi-Branch Intelligence Challenge</h2>
+                        <p class="puzzle-subtitle">Prove your brilliance across all engineering disciplines and unlock your personalized greeting!</p>
+                        
+                        <!-- Back to Top Button -->
+                        <button id="backToTopBtn" class="back-to-top-btn">
+                            <span>🏠 Back to Top</span>
+                            <i class="fas fa-home"></i>
+                        </button>
+                    </div>
+                    
+                    <div class="question-progress">
+                        <div class="progress-bar">
+                            <div class="progress-fill" id="progressFill"></div>
+                        </div>
+                        <div class="progress-text">Question <span id="currentQuestion">1</span> of 5</div>
+                    </div>
+                    
+                    <div class="puzzle-card">
+                        <div class="question-container">
+                            <div class="branch-badge" id="branchBadge">
+                                <i class="fas fa-code"></i>
+                                <span>Computer Science</span>
+                            </div>
+                            
+                            <div class="puzzle-question">
+                                <h3 id="questionTitle">CSE Question:</h3>
+                                <p class="riddle-text" id="questionText">"I am a fundamental data structure that follows the Last-In-First-Out principle. I can be implemented using arrays or linked lists. What am I?"</p>
+                            </div>
+                            
+                            <div class="puzzle-input">
+                                <input type="text" id="answerInput" placeholder="Enter your answer..." class="answer-input">
+                                <button id="submitAnswer" class="submit-btn">
+                                    <span>Submit Answer</span>
+                                    <i class="fas fa-rocket"></i>
+                                </button>
+                            </div>
+                            
+                            <div class="puzzle-actions">
+                                <button id="hintBtn" class="hint-btn">
+                                    <span>💡 Need a Hint?</span>
+                                    <i class="fas fa-lightbulb"></i>
+                                </button>
+                            </div>
+                            
+                            <div class="puzzle-hint" id="puzzleHint" style="display: none;">
+                                <p id="hintText">💡 Hint: Think about a data structure where the last element added is the first one removed</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Faculty Registration Section (Hidden initially) -->
+            <section class="registration-section" id="registrationSection" style="display: none;">
+                <div class="registration-container">
+                    <div class="success-animation">
+                        <div class="success-icon">
+                            <i class="fas fa-check-circle"></i>
+                        </div>
+                        <h2 class="success-title">🎉 Brilliant! You've solved all challenges!</h2>
+                        <p class="success-message">You've proven your intelligence across all engineering disciplines! Now let's send you a personalized greeting.</p>
+                    </div>
+                    
+                    <div class="registration-form">
+                        <h3>Personalized Greeting Details</h3>
+                        <div class="form-group">
+                            <label for="facultyName">Your Name:</label>
+                            <input type="text" id="facultyName" placeholder="Enter your full name" class="form-input">
+                        </div>
+                        <div class="form-group">
+                            <label for="facultyEmail">Email Address:</label>
+                            <input type="email" id="facultyEmail" placeholder="Enter your email" class="form-input">
+                        </div>
+                        <button id="sendGreeting" class="send-btn">
+                            <span>Send My Greeting</span>
+                            <i class="fas fa-paper-plane"></i>
+                        </button>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Engineering Elements Showcase -->
+            <section class="engineering-showcase">
+                <div class="showcase-header">
+                    <h2>Engineering Excellence</h2>
+                    <p>Celebrating the diverse fields of engineering innovation</p>
+                </div>
+                
+                <div class="showcase-grid">
+                    <div class="showcase-item" data-field="cse">
+                        <div class="item-icon">
+                            <i class="fas fa-code"></i>
+                        </div>
+                        <h3>Computer Science</h3>
+                        <p>Digital Revolution</p>
+                        <div class="item-particles"></div>
+                    </div>
+                    
+                    <div class="showcase-item" data-field="ece">
+                        <div class="item-icon">
+                            <i class="fas fa-microchip"></i>
+                        </div>
+                        <h3>Electronics</h3>
+                        <p>Circuit Innovation</p>
+                        <div class="item-particles"></div>
+                    </div>
+                    
+                    <div class="showcase-item" data-field="eee">
+                        <div class="item-icon">
+                            <i class="fas fa-bolt"></i>
+                        </div>
+                        <h3>Electrical</h3>
+                        <p>Power Systems</p>
+                        <div class="item-particles"></div>
+                    </div>
+                    
+                    <div class="showcase-item" data-field="mechanical">
+                        <div class="item-icon">
+                            <i class="fas fa-cogs"></i>
+                        </div>
+                        <h3>Mechanical</h3>
+                        <p>Precision Engineering</p>
+                        <div class="item-particles"></div>
+                    </div>
+                    
+                    <div class="showcase-item" data-field="civil">
+                        <div class="item-icon">
+                            <i class="fas fa-building"></i>
+                        </div>
+                        <h3>Civil</h3>
+                        <p>Infrastructure Design</p>
+                        <div class="item-particles"></div>
+                    </div>
+                    
+                    <div class="showcase-item" data-field="dsai">
+                        <div class="item-icon">
+                            <i class="fas fa-robot"></i>
+                        </div>
+                        <h3>DSAI</h3>
+                        <p>Data Science & AI</p>
+                        <div class="item-particles"></div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Thank You Section -->
+            <section class="thank-you-section">
+                <div class="thank-you-card">
+                    <div class="thank-you-content">
+                        <div class="thank-you-icon">
+                            <i class="fas fa-heart"></i>
+                        </div>
+                        <h2 class="thank-you-title">Thank You</h2>
+                        <div class="thank-you-message">
+                            <p>For every breakthrough you've inspired</p>
+                            <p>For every challenge you've guided us through</p>
+                            <p>For every innovation you've nurtured</p>
+                            <p>For being the architects of our engineering dreams</p>
+                        </div>
+                        <div class="celebration-text">
+                            <span class="celebration-main">Happy Teachers' Day 2025</span>
+                            <span class="celebration-sub">May your brilliance continue to illuminate the path of knowledge</span>
+                        </div>
+                    </div>
+                    <div class="thank-you-glow"></div>
+                </div>
+            </section>
+
+            <!-- Footer -->
+            <footer class="footer">
+                <div class="footer-content">
+                    <div class="footer-text">
+                        <p class="footer-message">Empowering minds, Engineering futures</p>
+                        <p class="footer-celebration">Happy Teachers' Day 2025</p>
+                    </div>
+                    <div class="footer-decoration">
+                        <div class="cyber-circuit"></div>
+                    </div>
+                </div>
+            </footer>
+        </main>
+    </div>
+
+    <!-- Confetti Canvas -->
+    <canvas id="confettiCanvas"></canvas>
+
+    <!-- Success Modal -->
+    <div class="success-modal" id="successModal">
+        <div class="modal-content">
+            <div class="modal-icon">
+                <i class="fas fa-rocket"></i>
+            </div>
+            <h2>Greeting Sent Successfully!</h2>
+            <p>Your personalized Teachers' Day greeting has been sent to your email.</p>
+            <button class="modal-close" onclick="closeModal()">Continue Exploring</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
